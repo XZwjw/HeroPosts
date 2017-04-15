@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            >
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/appBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                >
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolBar_lol"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/actionBarSize"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    android:background="@android:color/holo_green_light"
+                    android:padding="3dp"
+                    />
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    app:tabIndicatorColor="@android:color/holo_red_dark"
+                    app:tabSelectedTextColor="@android:color/holo_red_dark"
+                    app:tabTextColor="@android:color/black"
+                    style="@style/CustomTabTextAppearance"
+                    >
+                </android.support.design.widget.TabLayout>
+
+
+
+
+
+            </android.support.design.widget.AppBarLayout>
+
+            <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/recycleView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+
+            <!--/>-->
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                >
+            </android.support.v4.view.ViewPager>
+
+
+
+
+
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/right_margin"
+                android:src="@drawable/right"
+                />
+
+
+        </android.support.design.widget.CoordinatorLayout>
+        <ProgressBar
+            android:id="@+id/progressBar_lol"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            style="@style/MyProgressBar"
+            android:layout_centerInParent="true"
+
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+
+

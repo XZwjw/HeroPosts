@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+    <size
+        android:height="@dimen/activity_horizontal_margin"
+        android:width="@dimen/activity_vertical_margin"
+        />
+    <solid android:color="@android:color/holo_green_dark"/>
+    <corners android:radius="2pt"/>
+    <stroke
+        android:width="0.1sp"
+        android:color="@android:color/holo_green_light"
+
+        />
+</shape>

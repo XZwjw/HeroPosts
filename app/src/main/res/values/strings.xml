@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">英雄帖</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="define_behavior">com.yanzhenjie.definebehavior.behavior.DefineBehavior</string>
+
+    <!--header.xmlml-->
+    <string name="lol">英雄联盟</string>
+    <string name="book">书籍</string>
+    <string name="game">游戏</string>
+
+    <!--slide_menu-->
+    <string name="version_information">版本信息</string>
+    <string name="about">软件信息</string>
+    <string name="card_string">知道我想啥吗？想你！知道为啥想你吗？因为喜欢你！知道为啥喜欢你吗？因为你有味道！知道为啥有味道吗？因为你是粽子。祝你端午节快乐哟！</string>
+
+    <!--menu_lol-->
+    <string name="hero">英雄</string>
+    <string name="item">物品</string>
+    <!--search_menu-->
+    <string name="search">搜索</string>
+    <!--single_hero-->
+
+    <string name="backgroundStory">背景故事</string>
+    <string name="name_passive">黑暗之跃  </string>
+    <string name="text_passive">亚托克斯纵身一跃然后猛击向目标位置，对落点中心的敌人造成70/115/160/205/250(+0.6)物理伤害和持续1秒的击飞效果。</string>
+    <string name="open">了解更多...</string>
+    <string name="passive"> 被动</string>
+    <string name="spellQ">快捷键 : Q</string>
+    <string name="spellW">快捷键 : W</string>
+    <string name="spellE">快捷键 : E</string>
+    <string name="spellR">快捷键 : R</string>
+    <string name="userSkill">使用技巧</string>
+
+    <!--disconnection-->
+    <string name="reLoading">重新加载</string>
+
+    <!--search-->
+    <string name="query">查询</string>
+
+    <!--about_us-->
+    <string name="about_us">    英雄帖主要有英雄、物品等功能，查看英雄皮肤、背景故事、技能介绍等信息以及物品的基本信息数据。</string>
+
+</resources>

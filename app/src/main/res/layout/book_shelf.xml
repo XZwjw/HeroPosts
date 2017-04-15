@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/line_left"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/line"
+                />
+            <TextView
+                android:id="@+id/collectionQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="已收藏4本"
+                android:layout_toRightOf="@id/line_left"
+                />
+            <TextView
+                android:id="@+id/totalCapacity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="|总容量150本"
+                android:layout_toRightOf="@id/collectionQuantity"
+
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/line"
+                android:layout_toRightOf="@id/totalCapacity"
+                />
+
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleView_bookShelf"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</ScrollView>

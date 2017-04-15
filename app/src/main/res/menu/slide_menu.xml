@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <group
+        android:checkableBehavior="single"
+        android:title="Home items">
+
+        <item
+            android:id="@+id/item_lol"
+            android:title="@string/lol"
+            android:icon="@drawable/lol"
+            >
+
+
+        </item>
+        <!--<item-->
+            <!--android:id="@+id/item_book"-->
+            <!--android:title="@string/book"-->
+            <!--android:icon="@drawable/book"-->
+            <!--/>-->
+        <!--<item-->
+            <!--android:id="@+id/item_game"-->
+            <!--android:title="@string/game"-->
+            <!--android:icon="@drawable/handle"-->
+            <!--/>-->
+
+    </group>
+
+    <item android:title="subItem">
+        <menu>
+
+            <!--<item-->
+                <!--android:id="@+id/item_version_information"-->
+                <!--android:title="@string/version_information"-->
+                <!--android:icon="@drawable/version_information"-->
+
+                <!--/>-->
+            <item
+                android:id="@+id/item_about"
+                android:title="@string/about"
+                android:icon="@drawable/about"
+                />
+
+        </menu>
+
+    </item>
+</menu>
